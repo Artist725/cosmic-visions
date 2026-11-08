@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070711" />
+  <title>Cosmic Visions | Salima Lahkim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="nebula nebula-one"></div>
+  <div class="nebula nebula-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> COSMIC VISIONS</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ART • ASTRONOMY • IMAGINATION</p>
+        <h1>Where art meets<br><em>the cosmos.</em></h1>
+        <p class="hero-text">A journey through distant galaxies, mysterious black holes, and the quiet poetry of the universe — seen through the eyes of artist Salima Lahkim.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#gallery">Explore the collection <span>↘</span></a>
+          <a class="text-link" href="#about">Meet the artist <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span class="pulse-dot"></span> ORIGINAL ARTWORKS · MOROCCO</div>
+      </div>
+
+      <div class="cosmos-art" aria-label="Animated planets and orbit illustration">
+        <div class="orbit orbit-outer"></div>
+        <div class="orbit orbit-middle"></div>
+        <div class="orbit orbit-inner"></div>
+        <div class="planet planet-large"></div>
+        <div class="planet planet-small"></div>
+        <div class="planet planet-ring"></div>
+        <div class="shooting-star"></div>
+        <div class="art-caption"><span>01 / 12</span><span>THE INFINITE, INTERPRETED</span></div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro section-wrap reveal">
+      <p class="eyebrow">A SMALL WINDOW INTO THE INFINITE</p>
+      <h2>Not just what we see.<br><em>What we wonder.</em></h2>
+      <p class="intro-text">Every canvas begins with a question about the universe. Each work turns a scientific wonder into a personal visual story.</p>
+    </section>
+
+    <section class="gallery section-wrap" id="gallery">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">SELECTED WORKS</p><h2>Cosmic <em>visions</em></h2></div>
+        <span class="section-count">COLLECTION Nº 01 — 12</span>
+      </div>
+      <div class="art-grid">
+        
+        <article class="art-card reveal">
+          <div class="art-image" style="background: #11101f;">
+            <img src="ART1.jpeg" alt="Artwork 1" style="width: 100%; height: 100%; object-fit: cover;">
+            <span class="art-index">01</span><span class="art-type">GRAVITY / SPACE-TIME</span>
+          </div>
+          <div class="art-meta">
+                <div>
+                  <h3>Beyond the Event Horizon</h3>
+                  <p>Black Hole Study</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">17x20 cm | Acrylic on canvas with collage technique</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+        </article>
+
+        <article class="art-card reveal">
+          <div class="art-image" style="background: #11101f;">
+            <img src="JUPITER.jpeg" alt="Planet Jupiter" style="width: 100%; height: 100%; object-fit: cover;">
+            <span class="art-index">02</span><span class="art-type">STARDUST / CREATION</span>
+          </div>
+          <div class="art-meta">
+                <div>
+                  <h3>Planet Jupiter</h3>
+                  <p>Galactic Dream</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">40 cm | Acrylic on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+        </article>
+
+        <article class="art-card reveal">
+          <div class="art-image" style="background: #11101f;">
+            <img src="MOON.jpeg" alt="A Quiet Moon" style="width: 100%; height: 100%; object-fit: cover;">
+            <span class="art-index">03</span><span class="art-type">LUNAR / REFLECTION</span>
+          </div>
+          <div class="art-meta">
+                <div>
+                  <h3>A Quiet Moon</h3>
+                  <p>Lunar Reverie</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">30 cm | Acrylic and plaster on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+        </article>
+      
+<!-- ARTWORK 04 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="Steps_into_Astronomy.jpeg" alt="Steps into Astronomy" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">04</span>
+    <span class="art-type">COSMIC EXPLORATION</span>
+  </div>
+  
+  <div class="art-meta">
+                <div>
+                  <h3>Steps into Astronomy</h3>
+                  <p>Cosmic Exploration</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">50x60 cm | Acrylic on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 05 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="Gravitime.jpeg" alt="Gravitime" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">05</span>
+    <span class="art-type">BLACK HOLE STUDY</span>
+  </div>
+  <div class="art-meta">
+                <div>
+                  <h3>Gravitime</h3>
+                  <p>Cosmic Gravity</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">50x70 cm | Acrylic on canvas with collage technique</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 06 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="Galaxie.jpeg" alt="Galaxie" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">06</span>
+    <span class="art-type">GALACTIC DREAM</span>
+  </div>
+  <div class="art-meta">
+                <div>
+                  <h3>Galaxie</h3>
+                  <p>Spiral Galaxy</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">26x30 cm | Acrylic on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 07 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="Verse_Kawakib.jpeg" alt="لوحة إنا زينا السماء الدنيا بزينة الكواكب" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">07</span>
+    <span class="art-type">QURANIC INSPIRATION</span>
+  </div>
+  <div class="art-meta">
+                <div>
+                  <h3 lang="ar" dir="rtl">إِنَّا زَيَّنَّا السَّمَاءَ الدُّنْيَا بِزِينَةٍ الْكَوَاكِبِ</h3>
+                  <p>Quranic Inspiration</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">50x60 cm | Acrylic on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 08 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="Verse_Yasbahun.jpeg" alt="لوحة وكل في فلك يسبحون" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">08</span>
+    <span class="art-type">QURANIC INSPIRATION</span>
+  </div>
+  <div class="art-meta">
+                <div>
+                  <h3 lang="ar" dir="rtl">وَكُلٌّ فِي فَلَكٍ يَسْبَحُونَ</h3>
+                  <p>Quranic Inspiration</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">50x60 cm | Acrylic on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 09 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="Ancient_Astronomy.jpeg" alt="Ancient Astronomy" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">09</span>
+    <span class="art-type">ASTRONOMICAL HERITAGE</span>
+  </div>
+  <div class="art-meta">
+                <div>
+                  <h3>Ancient Astronomy</h3>
+                  <p>Echoes of the Past</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">50x50 cm | Acrylic on canvas with collage technique</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 10 -->
+<article class="art-card reveal">
+  <div class="art-image" style="background: #11101f;">
+    <img src="View_from_the_Moon.jpeg" alt="View from the Moon" style="width:100%; height:100%; object-fit:cover;">
+    <span class="art-index">10</span>
+    <span class="art-type">LUNAR PERSPECTIVE</span>
+  </div>
+  <div class="art-meta">
+                <div>
+                  <h3>View from the Moon</h3>
+                  <p>Earth from the Moon</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">17x20 cm | Acrylic and plaster on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+</article>
+
+<!-- ARTWORK 11  -->
+<article class="art-card reveal">
+      <div class="art-image" style="background: #1101f;">
+        <img src="Orion_Nebula.jpeg" alt="Orion Nebula" style="width:100%; height:100%; object-fit: cover;">
+        <span class="art-index">11</span>
+        <span class="art-type">CELESTIAL WONDERS</span>
+      </div>
+      <div class="art-meta">
+                <div>
+                  <h3>Orion Nebula</h3>
+                  <p>Celestial Wonders</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">20x30 cm | Acrylic on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+    </article>
+
+    <article class="art-card reveal">
+      <div class="art-image" style="background: #1101f;">
+        <img src="The Universe's_Cod.jpeg" alt="The Universe's Cod" style="width:100%; height:100%; object-fit: cover;">
+        <span class="art-index">12</span>
+        <span class="art-type">DEEP SPACE</span>
+      </div>
+      <div class="art-meta">
+                <div>
+                  <h3>The Universe's Cod</h3>
+                  <p>Deep Space</p>
+                  <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">50x60 cm | Acrylic and plaster on canvas</p>
+                </div>
+                <span class="arrow">↗</span>
+              </div>
+    </article>
+    </section>
+    <section class="quote-band reveal">
+      <span class="quote-star">✳</span>
+      <p>“Every painting is a window<br>into the <em>universe.</em>”</p>
+      <span class="quote-credit">SALIMA LAHKIM · ASTRO ARTIST</span>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-image-wrap reveal" style="width: 100%; max-width: 320px; height: 400px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+        <img src="salima.jpeg" alt="Salima Lahkim" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">THE ARTIST BEHIND THE CANVAS</p>
+        <h2>Meet <em>Salima.</em></h2>
+        <p>I am Salima Lahkim, a Moroccan visual artist fascinated by astronomy and the mysteries of the cosmos. Through my paintings, I bring art and science together, inviting people to explore the unknown and experience the beauty of the universe from a new perspective.</p>
+        <a class="text-link" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </section>
+<section class="contact section-wrap reveal" id="contact">
+      <p class="eyebrow">LET'S CREATE A CONNECTION</p>
+      
+      <h2>
+        Have a universe<br>
+        in <em>mind?</em>
+      </h2>
+      
+      <p>
+        For artwork enquiries, exhibitions, workshops, 
+        or creative collaborations.
+      </p>
+
+      <div class="contact-services">
+        <a class="button button-primary" href="mailto:salimalhkim449@gmail.com?subject=Art%20Commission">
+          Art Commissions
+        </a>
+        <a class="button button-primary" href="mailto:salimalhkim449@gmail.com?subject=Exhibition%20Enquiry">
+          Exhibitions
+        </a>
+        <a class="button button-primary" href="mailto:salimalhkim449@gmail.com?subject=Collaboration">
+          Collaborations
+        </a>
+        <a class="button button-primary" href="mailto:salimalhkim449@gmail.com?subject=Custom%20Artwork">
+          Custom Artwork
+        </a>
+      </div>
+
+      <div class="contact-social" style="margin-top: 25px; display: flex; gap: 30px; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <a href="https://www.instagram.com/salima.artiste_/" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 8px;">
+          <span>📷</span> Instagram
+        </a>
+        <a href="mailto:salimalhkim449@gmail.com" style="display: flex; align-items: center; gap: 8px;">
+          <span>✉️</span> Email
+        </a>
+        <a href="https://wa.me/212713775061" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 8px;">
+          <span>💬</span> WhatsApp
+        </a>
+      </div>
+
+  <footer>
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> COSMIC VISIONS</a>
+    <span>© 2026 SALIMA LAHKIM</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+   
+<
+
+
